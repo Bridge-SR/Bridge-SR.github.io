@@ -31,7 +31,7 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
     }
-    .audio-container {
+    .audio-container-16 {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -39,6 +39,33 @@
       padding: 10px;
       border-radius: 10px;
       background-color: #bbff0017; 
+    }
+    .audio-container-24 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #ff910017; 
+    }
+    .audio-container-12 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #0008ff17; 
+    }
+    .audio-container-8 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #f2ff0017; 
     }
     .audio-item {
       flex: 0 0 22%; /* 每个项占据大约22%的宽度 */
@@ -69,8 +96,9 @@
     
     <main role="main">
       <section>
-        <h2>16kHz -> 48kHz (Test Sample 1)</h2>
-        <div class="audio-container">
+        <h1>16kHz -> 48kHz (5 Samples)</h1>
+        <h2>(Test Sample 1)</h2>
+        <div class="audio-container-16">
           <!-- 第一行 -->
           <div class="audio-item">
             <audio controls>
@@ -145,8 +173,8 @@
       </section>
 
       <section></section>
-        <h2>16kHz -> 48kHz (Test Sample 2)</h2>
-        <div class="audio-container">
+        <h2>(Test Sample 2)</h2>
+        <div class="audio-container-16">
           <!-- 第一行 -->
           <div class="audio-item">
             <audio controls>
@@ -160,8 +188,8 @@
             <audio controls>
               <source src="16-48/audiosr-16-48/test_68_up.wav" type="audio/wav">
               Your browser does not support the audio element.<section></section>
-              <h2>16kHz -> 48kHz (Test Sample 1)</h2>
-              <div class="audio-container">
+              <h2>(Test Sample 1)</h2>
+              <div class="audio-container-16">
                 <!-- 第一行 -->
                 <div class="audio-item">
                   <audio controls>
@@ -295,8 +323,8 @@
       </section>
 
       <section></section>
-        <h2>16kHz -> 48kHz (Test Sample 3)</h2>
-        <div class="audio-container">
+        <h2>(Test Sample 3)</h2>
+        <div class="audio-container-16">
           <!-- 第一行 -->
           <div class="audio-item">
             <audio controls>
@@ -310,8 +338,8 @@
             <audio controls>
               <source src="16-48/audiosr-16-48/test_486_up.wav" type="audio/wav">
               Your browser does not support the audio element.<section></section>
-              <h2>16kHz -> 48kHz (Test Sample 1)</h2>
-              <div class="audio-container">
+              <h2>(Test Sample 1)</h2>
+              <div class="audio-container-16">
                 <!-- 第一行 -->
                 <div class="audio-item">
                   <audio controls>
@@ -445,8 +473,8 @@
       </section>
 
       <section></section>
-        <h2>16kHz -> 48kHz (Test Sample 4)</h2>
-        <div class="audio-container">
+        <h2>(Test Sample 4)</h2>
+        <div class="audio-container-16">
           <!-- 第一行 -->
           <div class="audio-item">
             <audio controls>
@@ -460,8 +488,8 @@
             <audio controls>
               <source src="16-48/audiosr-16-48/test_1494_up.wav" type="audio/wav">
               Your browser does not support the audio element.<section></section>
-              <h2>16kHz -> 48kHz (Test Sample 1)</h2>
-              <div class="audio-container">
+              <h2>(Test Sample 1)</h2>
+              <div class="audio-container-16">
                 <!-- 第一行 -->
                 <div class="audio-item">
                   <audio controls>
@@ -595,8 +623,8 @@
       </section>
 
       <section></section>
-        <h2>16kHz -> 48kHz (Test Sample 5)</h2>
-        <div class="audio-container">
+        <h2>(Test Sample 5)</h2>
+        <div class="audio-container-16">
           <!-- 第一行 -->
           <div class="audio-item">
             <audio controls>
@@ -610,8 +638,8 @@
             <audio controls>
               <source src="16-48/audiosr-16-48/test_3_up.wav" type="audio/wav">
               Your browser does not support the audio element.<section></section>
-              <h2>16kHz -> 48kHz (Test Sample 1)</h2>
-              <div class="audio-container">
+              <h2>(Test Sample 1)</h2>
+              <div class="audio-container-16">
                 <!-- 第一行 -->
                 <div class="audio-item">
                   <audio controls>
@@ -743,6 +771,466 @@
           </div>
         </div>          
       </section>
+
+      <section>
+        <h1>Other Input Sampling Rate(2 Sample)</h1>
+        <h1>24kHz -> 48kHz (2 Samples)</h1>
+        <h2>(Test Sample 1)</h2>
+        <div class="audio-container-24">
+          <!-- 第一行 -->
+          <div class="audio-item">
+            <audio controls>
+              <source src="others/24000_127_down.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+            <img src="others/24000_127_down.png" alt="Test Sample 1" class="pdf-image">
+            <p>Input</p>
+          </div>
+          <div class="audio-item">
+            <audio controls>
+              <source src="others/audiosr/24000_127.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+            <img src="others/audiosr/24000_127.png" alt="Test Sample 1" class="pdf-image">
+            <p>AudioSR</p>
+          </div>
+          <div class="audio-item">
+            <audio controls>
+              <source src="others/mdctGAN/24000_127.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+            <img src="others/mdctGAN/24000_127.png" alt="Test Sample 1" class="pdf-image">
+            <p>mdctGAN</p>
+          </div>
+          <div class="audio-item">
+            <audio controls>
+              <source src="others/nuwave/24000_127.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+            <img src="others/nuwave/24000_127.png" alt="Test Sample 1" class="pdf-image">
+            <p>NU-Wave</p>
+          </div>
+      
+          <!-- 第二行 -->
+          <div class="audio-item">
+            <audio controls>
+              <source src="others/udm+/24000_127.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+            <img src="others/udm+/24000_127.png" alt="Test Sample 1" class="pdf-image">
+            <p>UDM+</p>
+          </div>
+          
+          <div class="audio-item">
+            <audio controls>
+              <source src="others/nuwave2/24000_127.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+            <img src="others/nuwave2/24000_127.png" alt="Test Sample 1" class="pdf-image">
+            <p>NU-Wave2</p>
+          </div>
+          
+          <div class="audio-item">
+            <audio controls>
+              <source src="others/bridgesr_24000_127.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+            <img src="others/bridgesr_24000_127.png" alt="Test Sample 1" class="pdf-image">
+            <p>Bridge-SR</p>
+          </div>
+          
+          <div class="audio-item">
+            <audio controls>
+              <source src="others/orig_127.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+            <img src="others/orig_127.png" alt="Test Sample 1" class="pdf-image">
+            <p>Ground Truth</p>
+          </div>
+        </div>          
+      </section>
+      
+      <section>
+        <h2>(Test Sample 2)</h2>
+        <div class="audio-container-24">
+            <!-- 第一行 -->
+            <div class="audio-item">
+                <audio controls>
+                    <source src="others/24000_486_down.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <img src="others/24000_486_down.png" alt="Test Sample 2" class="pdf-image">
+                <p>Input</p>
+            </div>
+            <div class="audio-item">
+                <audio controls>
+                    <source src="others/audiosr/24000_486.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <img src="others/audiosr/24000_486.png" alt="Test Sample 2" class="pdf-image">
+                <p>AudioSR</p>
+            </div>
+            <div class="audio-item">
+                <audio controls>
+                    <source src="others/mdctGAN/24000_486.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <img src="others/mdctGAN/24000_486.png" alt="Test Sample 2" class="pdf-image">
+                <p>MDCT-GAN</p>
+            </div>
+            <div class="audio-item">
+                <audio controls>
+                    <source src="others/nuwave/24000_486.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <img src="others/nuwave/24000_486.png" alt="Test Sample 2" class="pdf-image">
+                <p>NU-Wave</p>
+            </div>
+    
+            <!-- 第二行 -->
+            <div class="audio-item">
+                <audio controls>
+                    <source src="others/udm+/24000_486.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <img src="others/udm+/24000_486.png" alt="Test Sample 2" class="pdf-image">
+                <p>UDM+</p>
+            </div>
+            
+            <div class="audio-item">
+                <audio controls>
+                    <source src="others/nuwave2/24000_486.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <img src="others/nuwave2/24000_486.png" alt="Test Sample 2" class="pdf-image">
+                <p>NU-Wave2</p>
+            </div>
+            
+            <div class="audio-item">
+                <audio controls>
+                    <source src="others/bridgesr_24000_486.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <img src="others/bridgesr_24000_486.png" alt="Test Sample 2" class="pdf-image">
+                <p>Bridge-SR</p>
+            </div>
+            
+            <div class="audio-item">
+                <audio controls>
+                    <source src="16-48/bridgesr_16-48/test_486_orig.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <img src="16-48/bridgesr_16-48/test_486_orig.png" alt="Test Sample 2" class="pdf-image">
+                <p>Ground Truth</p>
+            </div>
+        </div>          
+    </section>
+
+    <section>
+      <h1>12kHz -> 24kHz (2 Samples)</h1>
+      <h2>(Test Sample 1)</h2>
+      <div class="audio-container-12">
+        <!-- 第一行 -->
+        <div class="audio-item">
+          <audio controls>
+            <source src="others/12000_127_down.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+          <img src="others/12000_127_down.png" alt="Test Sample 1" class="pdf-image">
+          <p>Input</p>
+        </div>
+        <div class="audio-item">
+          <audio controls>
+            <source src="others/audiosr/12000_127.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+          <img src="others/audiosr/12000_127.png" alt="Test Sample 1" class="pdf-image">
+          <p>AudioSR</p>
+        </div>
+        <div class="audio-item">
+          <audio controls>
+            <source src="others/mdctGAN/12000_127.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+          <img src="others/mdctGAN/12000_127.png" alt="Test Sample 1" class="pdf-image">
+          <p>mdctGAN</p>
+        </div>
+        <div class="audio-item">
+          <audio controls>
+            <source src="others/nuwave/12000_127.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+          <img src="others/nuwave/12000_127.png" alt="Test Sample 1" class="pdf-image">
+          <p>NU-Wave</p>
+        </div>
+    
+        <!-- 第二行 -->
+        <div class="audio-item">
+          <audio controls>
+            <source src="others/udm+/12000_127.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+          <img src="others/udm+/12000_127.png" alt="Test Sample 1" class="pdf-image">
+          <p>UDM+</p>
+        </div>
+        
+        <div class="audio-item">
+          <audio controls>
+            <source src="others/nuwave2/12000_127.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+          <img src="others/nuwave2/12000_127.png" alt="Test Sample 1" class="pdf-image">
+          <p>NU-Wave2</p>
+        </div>
+        
+        <div class="audio-item">
+          <audio controls>
+            <source src="others/bridgesr_12000_127.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+          <img src="others/bridgesr_12000_127.png" alt="Test Sample 1" class="pdf-image">
+          <p>Bridge-SR</p>
+        </div>
+        
+        <div class="audio-item">
+          <audio controls>
+            <source src="others/orig_127.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+          <img src="others/orig_127.png" alt="Test Sample 1" class="pdf-image">
+          <p>Ground Truth</p>
+        </div>
+      </div>          
+    </section>
+    
+    <section>
+      <h2>(Test Sample 2)</h2>
+      <div class="audio-container-12">
+          <!-- 第一行 -->
+          <div class="audio-item">
+              <audio controls>
+                  <source src="others/12000_486_down.wav" type="audio/wav">
+                  Your browser does not support the audio element.
+              </audio>
+              <img src="others/12000_486_down.png" alt="Test Sample 2" class="pdf-image">
+              <p>Input</p>
+          </div>
+          <div class="audio-item">
+              <audio controls>
+                  <source src="others/audiosr/12000_486.wav" type="audio/wav">
+                  Your browser does not support the audio element.
+              </audio>
+              <img src="others/audiosr/12000_486.png" alt="Test Sample 2" class="pdf-image">
+              <p>AudioSR</p>
+          </div>
+          <div class="audio-item">
+              <audio controls>
+                  <source src="others/mdctGAN/12000_486.wav" type="audio/wav">
+                  Your browser does not support the audio element.
+              </audio>
+              <img src="others/mdctGAN/12000_486.png" alt="Test Sample 2" class="pdf-image">
+              <p>MDCT-GAN</p>
+          </div>
+          <div class="audio-item">
+              <audio controls>
+                  <source src="others/nuwave/12000_486.wav" type="audio/wav">
+                  Your browser does not support the audio element.
+              </audio>
+              <img src="others/nuwave/12000_486.png" alt="Test Sample 2" class="pdf-image">
+              <p>NU-Wave</p>
+          </div>
+  
+          <!-- 第二行 -->
+          <div class="audio-item">
+              <audio controls>
+                  <source src="others/udm+/12000_486.wav" type="audio/wav">
+                  Your browser does not support the audio element.
+              </audio>
+              <img src="others/udm+/12000_486.png" alt="Test Sample 2" class="pdf-image">
+              <p>UDM+</p>
+          </div>
+          
+          <div class="audio-item">
+              <audio controls>
+                  <source src="others/nuwave2/12000_486.wav" type="audio/wav">
+                  Your browser does not support the audio element.
+              </audio>
+              <img src="others/nuwave2/12000_486.png" alt="Test Sample 2" class="pdf-image">
+              <p>NU-Wave2</p>
+          </div>
+          
+          <div class="audio-item">
+              <audio controls>
+                  <source src="others/bridgesr_12000_486.wav" type="audio/wav">
+                  Your browser does not support the audio element.
+              </audio>
+              <img src="others/bridgesr_12000_486.png" alt="Test Sample 2" class="pdf-image">
+              <p>Bridge-SR</p>
+          </div>
+          
+          <div class="audio-item">
+              <audio controls>
+                  <source src="16-48/bridgesr_16-48/test_486_orig.wav" type="audio/wav">
+                  Your browser does not support the audio element.
+              </audio>
+              <img src="16-48/bridgesr_16-48/test_486_orig.png" alt="Test Sample 2" class="pdf-image">
+              <p>Ground Truth</p>
+          </div>
+      </div>          
+  </section>
+
+  <section></section>
+    <h1>8kHz -> 48kHz (2 Samples)</h1>
+    <h2>(Test Sample 1)</h2>
+    <div class="audio-container-8">
+      <!-- 第一行 -->
+      <div class="audio-item">
+        <audio controls>
+          <source src="others/8000_127_down.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+        <img src="others/8000_127_down.png" alt="Test Sample 1" class="pdf-image">
+        <p>Input</p>
+      </div>
+      <div class="audio-item">
+        <audio controls>
+          <source src="others/audiosr/8000_127.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+        <img src="others/audiosr/8000_127.png" alt="Test Sample 1" class="pdf-image">
+        <p>AudioSR</p>
+      </div>
+      <div class="audio-item">
+        <audio controls>
+          <source src="others/mdctGAN/8000_127.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+        <img src="others/mdctGAN/8000_127.png" alt="Test Sample 1" class="pdf-image">
+        <p>mdctGAN</p>
+      </div>
+      <div class="audio-item">
+        <audio controls>
+          <source src="others/nuwave/8000_127.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+        <img src="others/nuwave/8000_127.png" alt="Test Sample 1" class="pdf-image">
+        <p>NU-Wave</p>
+      </div>
+  
+      <!-- 第二行 -->
+      <div class="audio-item">
+        <audio controls>
+          <source src="others/udm+/8000_127.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+        <img src="others/udm+/8000_127.png" alt="Test Sample 1" class="pdf-image">
+        <p>UDM+</p>
+      </div>
+      
+      <div class="audio-item">
+        <audio controls>
+          <source src="others/nuwave2/8000_127.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+        <img src="others/nuwave2/8000_127.png" alt="Test Sample 1" class="pdf-image">
+        <p>NU-Wave2</p>
+      </div>
+      
+      <div class="audio-item">
+        <audio controls>
+          <source src="others/bridgesr_8000_127.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+        <img src="others/bridgesr_8000_127.png" alt="Test Sample 1" class="pdf-image">
+        <p>Bridge-SR</p>
+      </div>
+      
+      <div class="audio-item">
+        <audio controls>
+          <source src="others/orig_127.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+        <img src="others/orig_127.png" alt="Test Sample 1" class="pdf-image">
+        <p>Ground Truth</p>
+      </div>
+    </div>          
+  </section>
+  
+  <section>
+    <h2>(Test Sample 2)</h2>
+    <div class="audio-container-8">
+        <!-- 第一行 -->
+        <div class="audio-item">
+            <audio controls>
+                <source src="others/8000_486_down.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <img src="others/8000_486_down.png" alt="Test Sample 2" class="pdf-image">
+            <p>Input</p>
+        </div>
+        <div class="audio-item">
+            <audio controls>
+                <source src="others/audiosr/8000_486.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <img src="others/audiosr/8000_486.png" alt="Test Sample 2" class="pdf-image">
+            <p>AudioSR</p>
+        </div>
+        <div class="audio-item">
+            <audio controls>
+                <source src="others/mdctGAN/8000_486.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <img src="others/mdctGAN/8000_486.png" alt="Test Sample 2" class="pdf-image">
+            <p>MDCT-GAN</p>
+        </div>
+        <div class="audio-item">
+            <audio controls>
+                <source src="others/nuwave/8000_486.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <img src="others/nuwave/8000_486.png" alt="Test Sample 2" class="pdf-image">
+            <p>NU-Wave</p>
+        </div>
+
+        <!-- 第二行 -->
+        <div class="audio-item">
+            <audio controls>
+                <source src="others/udm+/8000_486.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <img src="others/udm+/8000_486.png" alt="Test Sample 2" class="pdf-image">
+            <p>UDM+</p>
+        </div>
+        
+        <div class="audio-item">
+            <audio controls>
+                <source src="others/nuwave2/8000_486.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <img src="others/nuwave2/8000_486.png" alt="Test Sample 2" class="pdf-image">
+            <p>NU-Wave2</p>
+        </div>
+        
+        <div class="audio-item">
+            <audio controls>
+                <source src="others/bridgesr_8000_486.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <img src="others/bridgesr_8000_486.png" alt="Test Sample 2" class="pdf-image">
+            <p>Bridge-SR</p>
+        </div>
+        
+        <div class="audio-item">
+            <audio controls>
+                <source src="16-48/bridgesr_16-48/test_486_orig.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <img src="16-48/bridgesr_16-48/test_486_orig.png" alt="Test Sample 2" class="pdf-image">
+            <p>Ground Truth</p>
+        </div>
+    </div>          
+</section>
 
     </main>
   </div>
